@@ -97,3 +97,9 @@ for algo in algorithms:
     print(f"Running {algo}...")
     # Execute scheduling logic for each algorithm
 ```
+### Integrations
+| **Application**           | **Description**                    | **Link**           |
+|----------------------|------------------------------------|--------------------------|
+| GitHub         | Repository managements | GitHub              |
+| Google Sheets	 | Task tracking	      | Google Sheets      |
+| Discord        | Team communication     | WhatsApp, Discord  |
