@@ -1,5 +1,5 @@
 # Operating-System-Scheduler
-# Overview
+## Overview
 This project implements five CPU scheduling algorithms to demonstrate how they work and affect task management. The project is divided into files to keep things simple and easy to read. Each file contains a different scheduling algorithm.
 
 # Algorithms Implemented
