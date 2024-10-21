@@ -96,3 +96,4 @@ algorithms = ["FCFS", "SJFNP", "SJFP", "Priority", "Round Robin"]
 for algo in algorithms:
     print(f"Running {algo}...")
     # Execute scheduling logic for each algorithm
+```
