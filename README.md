@@ -1,26 +1,13 @@
 # Operating-System-Scheduler
-## Overview
 This project implements five CPU scheduling algorithms to demonstrate how they work and affect task management. The project is divided into files to keep things simple and easy to read. Each file contains a different scheduling algorithm.
 
-## Algorithms Implemented
-### First-Come, First-Served (FCFS):
-Processes tasks in the order they arrive.
-Simple to implement but can cause delays for short tasks.
+## Key Features
+- **First-Come, First-Served (FCFS):** Tasks are executed in the order they arrive.
+- **Shortest Job First (Non-Preemptive) (SJFNP):** Runs the job with the shortest execution time.
+- **Shortest Job First (Preemptive) (SJFP):** Selects the task with the shortest remaining time.
+- **Priority Scheduling:** Processes tasks based on assigned priority levels.
+- **Round Robin (RR):** Assigns a fixed time slice to tasks in a circular order.
 
-### Shortest Job First (Non-Preemptive) (SJFNP):
-Runs the task with the shortest execution time first.
-Long tasks might wait if many short tasks are queued.\
-### Shortest Job First (Preemptive) (SJFP):
-Always selects the task with the shortest remaining time.
-Complex since it checks tasks constantly for shorter remaining times.
-
-### Priority Scheduling:
-Runs tasks based on their priority level.
-Lower priority tasks might wait longer.
-
-### Round Robin (RR):
-Each task gets a fixed time slice in a circular order.
-Works best with a well-chosen time slice to balance fairness and efficiency.
 
 
 ## How to Run
