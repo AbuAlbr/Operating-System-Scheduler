@@ -24,15 +24,12 @@ Works best with a well-chosen time slice to balance fairness and efficiency.
 
 
 # How to Run
-Clone the repository:
-bash
-نسخ الكو
-git clone https://github.com/rayanAdeb/Project
-Navigate to the project directory:
-bash
-نسخ الكود
+- Clone the repository:
+git clone https://github.com/Abdulrahman5843/Project
+
+basg
 cd Project
-Open the code files for each algorithm and run them using a compiler or IDE of your choice.
+
 # Key Features
 Separate Files: Each algorithm is in its own file for better code management.
 Average Time Calculations: Each algorithm calculates average waiting and turnaround times.
