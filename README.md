@@ -96,4 +96,30 @@ algorithms = ["FCFS", "SJFNP", "SJFP", "Priority", "Round Robin"]
 for algo in algorithms:
     print(f"Running {algo}...")
     # Execute scheduling logic for each algorithm
+     ```
+---
+
+## Troubleshooting
+
+- **Process Stuck:**  
+  If a process gets stuck, ensure the burst time values are correctly initialized.
+
+- **Incorrect Output:**  
+  Verify the scheduling algorithm logic for mistakes in time calculations.
+
+- **Dependencies Issue:**  
+  Make sure Python is installed and properly configured on your system.
+
+---
+
+## Advanced Usage
+
+### Scripting
+Here’s how to use a script to automate scheduling tests for multiple algorithms:  
+```python
+algorithms = ["FCFS", "SJFNP", "SJFP", "Priority", "Round Robin"]
+
+for algo in algorithms:
+    print(f"Running {algo}...")
+    # Execute scheduling logic for each algorithm
 
