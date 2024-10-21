@@ -33,19 +33,19 @@ bash
 نسخ الكود
 cd Project
 Open the code files for each algorithm and run them using a compiler or IDE of your choice.
-Key Features
+# Key Features
 Separate Files: Each algorithm is in its own file for better code management.
 Average Time Calculations: Each algorithm calculates average waiting and turnaround times.
 Interactive Input: Some algorithms ask for user input for burst time, arrival time, and priority.
-Challenges Faced
+# Challenges Faced
 Connecting lecture content with programming implementation.
 Synchronizing data between arrays.
 Difficulty combining individual member codes.
 Late project start due to learning curve.
-Conclusion
+# Conclusion
 This project provided insight into different CPU scheduling methods and their impact on performance. Each algorithm has strengths and weaknesses, making it important to select the right one for specific tasks.
 
-References
+# References
 W3Schools
 GeeksforGeeks
 Stack Overflow
