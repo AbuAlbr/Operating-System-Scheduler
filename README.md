@@ -73,4 +73,32 @@ Users can generate reports showing the results of different scheduling algorithm
   ],
   "average_waiting_time": 5,
   "average_turnaround_time": 12.5
-}
+} ```
+## Troubleshooting
+
+- **Process not starting**:  
+  Ensure that all required process details (e.g., burst time, arrival time) are correctly entered before starting the scheduling algorithm.
+
+- **Incorrect scheduling order**:  
+  Double-check that the selected scheduling algorithm is appropriate for the task (e.g., FCFS for first-come-first-served order, SJF for shortest job first).
+
+- **Report generation fails**:  
+  Make sure all processes are complete and the algorithm has been run successfully before generating reports.
+
+---
+
+## Advanced Usage
+
+### Scripting
+
+In Operating System Scheduler, you can automate tasks by writing scripts. Below is an example of a Python script that runs the FCFS scheduling algorithm:
+
+```python
+processes = [
+    {"id": 1, "burst_time": 10, "arrival_time": 0},
+    {"id": 2, "burst_time": 5, "arrival_time": 2}
+]
+
+scheduler = Scheduler()
+scheduler.run_fcfs(processes)
+```
