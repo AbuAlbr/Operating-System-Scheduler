@@ -105,3 +105,43 @@ scheduler = Scheduler()
 scheduler.run_fcfs(processes)
 
 ```
+
+### Integrations
+
+Operating System Scheduler can integrate with a variety of tools to enhance its functionality. Below is a table showing some of the supported integrations:
+
+| **Application Name**   | **Description**                             | **Link**                             |
+|------------------------|---------------------------------------------|--------------------------------------|
+| **Slack**              | Receive notifications for process completions | [Slack](https://slack.com)           |
+| **Jira**               | Track scheduling tasks using Jira issues     | [Jira](https://jira.com)             |
+| **GitHub**             | Automate project management with GitHub Issues | [GitHub](https://github.com)         |
+| **Trello**             | Organize tasks and processes in a visual format | [Trello](https://trello.com)         |
+| **Asana**              | Track scheduling tasks as project milestones | [Asana](https://asana.com)           |
+
+---
+
+## Footnotes
+
+1. For more information on different CPU scheduling algorithms, you can refer to [GeeksForGeeks](https://www.geeksforgeeks.org/cpu-scheduling-in-operating-systems/).  
+2. Learn more about process scheduling in operating systems from [W3Schools](https://www.w3schools.com/os/os_processes.asp).
+
+---
+
+## Emojis for Enhanced Readability
+
+- 📅 **Scheduling Algorithms**: Choose from a range of CPU scheduling methods such as FCFS, SJF, Priority, and more.
+- ✅ **Task Completion**: Monitor completed processes and calculate average waiting and turnaround times.
+- 🛠 **Troubleshooting**: Quickly identify and resolve issues related to process scheduling.
+
+---
+
+## Emphasis
+
+Make sure you **bold** important features such as the **First-Come, First-Served (FCFS)** algorithm. When discussing options, you can also use *italics* to highlight certain terms, like *shortest job first*.
+
+Example of superscript and subscript usage:
+
+- E = mc^2^  
+- CO~2~ emissions tracking
+
+---
