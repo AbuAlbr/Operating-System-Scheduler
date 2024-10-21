@@ -1,5 +1,8 @@
-# Operating-System-Scheduler
-This project implements five CPU scheduling algorithms to demonstrate how they work and affect task management. The project is divided into files to keep things simple and easy to read. Each file contains a different scheduling algorithm.
+# Operating System Scheduler - Task Management Redefined
+
+The **Operating System Scheduler** project demonstrates five key CPU scheduling algorithms. It explores how these algorithms manage tasks and affect system performance. This documentation provides an in-depth look at the installation, features, and advanced usage of the scheduler.
+
+---
 
 ## Key Features
 - **First-Come, First-Served (FCFS):** Tasks are executed in the order they arrive.
@@ -8,29 +11,62 @@ This project implements five CPU scheduling algorithms to demonstrate how they w
 - **Priority Scheduling:** Processes tasks based on assigned priority levels.
 - **Round Robin (RR):** Assigns a fixed time slice to tasks in a circular order.
 
+---
 
+## Installation Guide
 
-## How to Run
-### Clone the repository:
-git clone https://github.com/Abdulrahman5843/Project
+1. **Windows:**
+    ```bash
+    git clone https://github.com/rayanAdeb/Project
+    cd Project
+    python run_scheduler.py
+    ```
 
-basg
-cd Project
+2. **macOS:**
+    ```bash
+    brew install python3
+    git clone https://github.com/rayanAdeb/Project
+    cd Project
+    python3 run_scheduler.py
+    ```
 
-## Key Features
-Separate Files: Each algorithm is in its own file for better code management.
-Average Time Calculations: Each algorithm calculates average waiting and turnaround times.
-Interactive Input: Some algorithms ask for user input for burst time, arrival time, and priority.
-## Challenges Faced
-Connecting lecture content with programming implementation.
-Synchronizing data between arrays.
-Difficulty combining individual member codes.
-Late project start due to learning curve.
-## Conclusion
-This project provided insight into different CPU scheduling methods and their impact on performance. Each algorithm has strengths and weaknesses, making it important to select the right one for specific tasks.
+3. **Linux:**
+    ```bash
+    sudo apt update
+    sudo apt install python3
+    git clone https://github.com/rayanAdeb/Project
+    cd Project
+    python3 run_scheduler.py
+    ```
 
-## References
-W3Schools
-GeeksforGeeks
-Stack Overflow
-Feel free to use or modify this README! Let me know if any further tweaks are needed.
+---
+
+## User Guide
+
+### Creating a Project
+Follow these steps to create and configure a new scheduling project:  
+- [ ] Clone the project repository from GitHub.  
+- [ ] Choose the algorithm you want to implement.  
+- [ ] Write or modify the code for your selected algorithm.  
+- [ ] Compile and run the code to test scheduling behavior.  
+- [ ] Record and analyze the outputs for insights.
+
+### Collaboration
+| **Option**           | **Description**                    | **Tools Used**           |
+|----------------------|------------------------------------|--------------------------|
+| Shared Projects      | Multiple contributors to the same project | GitHub |
+| Task Assignments     | Distribute specific tasks to group members | Google Sheets |
+| Communication Tools  | Chat and updates                   | WhatsApp, Discord        |
+
+### Reporting
+Users can generate output reports from the scheduling results. Below is an example of a report in JSON format:  
+```json
+{
+  "algorithm": "Round Robin",
+  "processes": [
+    {"id": 1, "waiting_time": 5, "turnaround_time": 12},
+    {"id": 2, "waiting_time": 3, "turnaround_time": 8}
+  ],
+  "average_waiting_time": 4,
+  "average_turnaround_time": 10
+}
