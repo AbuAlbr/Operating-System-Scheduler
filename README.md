@@ -17,7 +17,7 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
 
 1. **Windows:**
     ```bash
-    git clone https://github.com/Abdulrahman5843/Project
+    git clone https://github.com/rayanAdeb/Project
     cd Project
     python run_scheduler.py
     ```
@@ -25,7 +25,7 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
 2. **macOS:**
     ```bash
     brew install python3
-    git clone https://github.com/Abdulrahman5843/Project
+    git clone https://github.com/rayanAdeb/Project
     cd Project
     python3 run_scheduler.py
     ```
@@ -34,7 +34,7 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
     ```bash
     sudo apt update
     sudo apt install python3
-    git clone https://github.com/Abdulrahman5843/Project
+    git clone https://github.com/rayanAdeb/Project
     cd Project
     python3 run_scheduler.py
     ```
@@ -70,56 +70,4 @@ Users can generate output reports from the scheduling results. Below is an examp
   "average_waiting_time": 4,
   "average_turnaround_time": 10
 }
-
----
-
-## Troubleshooting
-
-- **Process Stuck:**  
-  If a process gets stuck, ensure the burst time values are correctly initialized.
-
-- **Incorrect Output:**  
-  Verify the scheduling algorithm logic for mistakes in time calculations.
-
-- **Dependencies Issue:**  
-  Make sure Python is installed and properly configured on your system.
-
----
-
-## Advanced Usage
-
-### Scripting
-Here’s how to use a script to automate scheduling tests for multiple algorithms:  
-```python
-algorithms = ["FCFS", "SJFNP", "SJFP", "Priority", "Round Robin"]
-
-for algo in algorithms:
-    print(f"Running {algo}...")
-    # Execute scheduling logic for each algorithm
-     ```
----
-
-## Troubleshooting
-
-- **Process Stuck:**  
-  If a process gets stuck, ensure the burst time values are correctly initialized.
-
-- **Incorrect Output:**  
-  Verify the scheduling algorithm logic for mistakes in time calculations.
-
-- **Dependencies Issue:**  
-  Make sure Python is installed and properly configured on your system.
-
----
-
-## Advanced Usage
-
-### Scripting
-Here’s how to use a script to automate scheduling tests for multiple algorithms:  
-```python
-algorithms = ["FCFS", "SJFNP", "SJFP", "Priority", "Round Robin"]
-
-for algo in algorithms:
-    print(f"Running {algo}...")
-    # Execute scheduling logic for each algorithm
-
+```
