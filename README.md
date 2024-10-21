@@ -1,42 +1,42 @@
-# Operating System Scheduler - Task Management Redefined
+# Operating System Scheduler - CPU Scheduling Algorithms Redefined
 
-The **Operating System Scheduler** project demonstrates five key CPU scheduling algorithms. It explores how these algorithms manage tasks and affect system performance. This documentation provides an in-depth look at the installation, features, and advanced usage of the scheduler.
+Operating System Scheduler is a tool designed to implement and compare different CPU scheduling algorithms. This project helps understand how various algorithms manage tasks and affect system performance, aiding developers and computer scientists in selecting the most suitable algorithm for their needs.
 
 ---
 
 ## Key Features
-- **First-Come, First-Served (FCFS):** Tasks are executed in the order they arrive.
-- **Shortest Job First (Non-Preemptive) (SJFNP):** Runs the job with the shortest execution time.
-- **Shortest Job First (Preemptive) (SJFP):** Selects the task with the shortest remaining time.
-- **Priority Scheduling:** Processes tasks based on assigned priority levels.
-- **Round Robin (RR):** Assigns a fixed time slice to tasks in a circular order.
+
+- **First-Come, First-Served (FCFS)**: Processes tasks in the order they arrive, with no preemption.
+- **Shortest-Job-First (Non-Preemptive) (SJFNP)**: Selects the task with the shortest execution time and runs it until it completes.
+- **Shortest-Job-First (Preemptive) (SJFP)**: Always picks the task with the shortest remaining time and allows task switching.
+- **Priority Scheduling**: Processes tasks based on their priority, giving higher priority tasks precedence.
+- **Round Robin (RR)**: Allocates a fixed time slice to each task, distributing CPU time fairly in a circular order.
 
 ---
 
 ## Installation Guide
 
-1. **Windows:**
+Follow these steps to install the Operating System Scheduler on various platforms:
+
+1. **Windows**
     ```bash
-    git clone https://github.com/rayanAdeb/Project
+    git clone https://github.com/Abdulrahman5843/Operating-System-Scheduler
     cd Project
-    python run_scheduler.py
+    ./install_windows.bat
     ```
 
-2. **macOS:**
+2. **macOS**
     ```bash
-    brew install python3
-    git clone https://github.com/rayanAdeb/Project
+    git clone https://github.com/Abdulrahman5843/Operating-System-Scheduler
     cd Project
-    python3 run_scheduler.py
+    ./install_mac.sh
     ```
 
-3. **Linux:**
+3. **Linux**
     ```bash
-    sudo apt update
-    sudo apt install python3
-    git clone https://github.com/rayanAdeb/Project
+    git clone https://github.com/Abdulrahman5843/Operating-System-Scheduler
     cd Project
-    python3 run_scheduler.py
+    sudo ./install_linux.sh
     ```
 
 ---
@@ -44,56 +44,33 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
 ## User Guide
 
 ### Creating a Project
-Follow these steps to create and configure a new scheduling project:  
-- [ ] Clone the project repository from GitHub.  
-- [ ] Choose the algorithm you want to implement.  
-- [ ] Write or modify the code for your selected algorithm.  
-- [ ] Compile and run the code to test scheduling behavior.  
-- [ ] Record and analyze the outputs for insights.
+To create a new project in the Operating System Scheduler, follow these steps:
+
+- [ ] Name the project
+- [ ] Select the scheduling algorithm
+- [ ] Define the number of processes
+- [ ] Input process data (arrival time, burst time, etc.)
+- [ ] Run the algorithm
 
 ### Collaboration
-| **Option**           | **Description**                    | **Tools Used**           |
-|----------------------|------------------------------------|--------------------------|
-| Shared Projects      | Multiple contributors to the same project | GitHub |
-| Task Assignments     | Distribute specific tasks to group members | Google Sheets |
-| Communication Tools  | Chat and updates                   | WhatsApp, Discord        |
+
+| Collaboration Option   | Description                                           | Availability |
+|------------------------|-------------------------------------------------------|--------------|
+| **Shared Projects**     | Share scheduling results with other users             | Available    |
+| **Task Assignments**    | Assign CPU tasks to team members                      | Available    |
+| **Communication Tools** | Collaborate via built-in messaging or external tools  | Coming soon  |
 
 ### Reporting
-Users can generate output reports from the scheduling results. Below is an example of a report in JSON format:  
+
+Users can generate reports showing the results of different scheduling algorithms. Below is an example of a JSON-formatted report:
+
 ```json
 {
-  "algorithm": "Round Robin",
+  "algorithm": "FCFS",
   "processes": [
-    {"id": 1, "waiting_time": 5, "turnaround_time": 12},
-    {"id": 2, "waiting_time": 3, "turnaround_time": 8}
+    {"id": 1, "burst_time": 10, "waiting_time": 0, "turnaround_time": 10},
+    {"id": 2, "burst_time": 5, "waiting_time": 10, "turnaround_time": 15}
   ],
-  "average_waiting_time": 4,
-  "average_turnaround_time": 10
+  "average_waiting_time": 5,
+  "average_turnaround_time": 12.5
 }
-```
----
-
-## Troubleshooting
-
-- **Process Stuck:**  
-  If a process gets stuck, ensure the burst time values are correctly initialized.
-
-- **Incorrect Output:**  
-  Verify the scheduling algorithm logic for mistakes in time calculations.
-
-- **Dependencies Issue:**  
-  Make sure Python is installed and properly configured on your system.
-
----
-
-## Advanced Usage
-
-### Scripting
-Here’s how to use a script to automate scheduling tests for multiple algorithms:  
-```python
-algorithms = ["FCFS", "SJFNP", "SJFP", "Priority", "Round Robin"]
-
-for algo in algorithms:
-    print(f"Running {algo}...")
-    # Execute scheduling logic for each algorithm
-```
