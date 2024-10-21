@@ -127,21 +127,3 @@ Operating System Scheduler can integrate with a variety of tools to enhance its 
 
 ---
 
-## Emojis for Enhanced Readability
-
-- 📅 **Scheduling Algorithms**: Choose from a range of CPU scheduling methods such as FCFS, SJF, Priority, and more.
-- ✅ **Task Completion**: Monitor completed processes and calculate average waiting and turnaround times.
-- 🛠 **Troubleshooting**: Quickly identify and resolve issues related to process scheduling.
-
----
-
-## Emphasis
-
-Make sure you **bold** important features such as the **First-Come, First-Served (FCFS)** algorithm. When discussing options, you can also use *italics* to highlight certain terms, like *shortest job first*.
-
-Example of superscript and subscript usage:
-
-- E = mc^2^  
-- CO~2~ emissions tracking
-
----
