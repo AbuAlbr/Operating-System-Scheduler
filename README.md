@@ -2,37 +2,31 @@
 # Overview
 This project implements five CPU scheduling algorithms to demonstrate how they work and affect task management. The project is divided into files to keep things simple and easy to read. Each file contains a different scheduling algorithm.
 
-Algorithms Implemented
-First-Come, First-Served (FCFS):
-
+#Algorithms Implemented
+-First-Come, First-Served (FCFS):
 Processes tasks in the order they arrive.
 Simple to implement but can cause delays for short tasks.
-Shortest Job First (Non-Preemptive) (SJFNP):
 
+-Shortest Job First (Non-Preemptive) (SJFNP):
 Runs the task with the shortest execution time first.
-Long tasks might wait if many short tasks are queued.
-Shortest Job First (Preemptive) (SJFP):
-
+Long tasks might wait if many short tasks are queued.\
+-Shortest Job First (Preemptive) (SJFP):
 Always selects the task with the shortest remaining time.
 Complex since it checks tasks constantly for shorter remaining times.
-Priority Scheduling:
 
+-Priority Scheduling:
 Runs tasks based on their priority level.
 Lower priority tasks might wait longer.
-Round Robin (RR):
 
+-Round Robin (RR):
 Each task gets a fixed time slice in a circular order.
 Works best with a well-chosen time slice to balance fairness and efficiency.
-Project Members
-Leader: Rayan Radin
-Nadir Jam
-Mohammed Bin Salman
-Abdulbari Mulla
-Abdulrahman Alkhamis
-How to Run
+
+
+# How to Run
 Clone the repository:
 bash
-نسخ الكود
+نسخ الكو
 git clone https://github.com/rayanAdeb/Project
 Navigate to the project directory:
 bash
