@@ -20,21 +20,21 @@ Follow these steps to install the Operating System Scheduler on various platform
 
 1. **Windows**
     ```bash
-    git clone https://github.com/rayanAdeb/Project.git
+    git clone https://github.com/Abdulrahman5843/Project.git
     cd Project
     ./install_windows.bat
     ```
 
 2. **macOS**
     ```bash
-    git clone https://github.com/rayanAdeb/Project.git
+    git clone https://github.com/Abdulrahman5843/Project.git
     cd Project
     ./install_mac.sh
     ```
 
 3. **Linux**
     ```bash
-    git clone https://github.com/rayanAdeb/Project.git
+    git clone https://github.com/Abdulrahman5843/Project.git
     cd Project
     sudo ./install_linux.sh
     ```
