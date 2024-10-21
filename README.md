@@ -17,7 +17,7 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
 
 1. **Windows:**
     ```bash
-    git clone https://github.com/rayanAdeb/Project
+    git clone https://github.com/Abdulrahman5843/Project
     cd Project
     python run_scheduler.py
     ```
@@ -25,7 +25,7 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
 2. **macOS:**
     ```bash
     brew install python3
-    git clone https://github.com/rayanAdeb/Project
+    git clone https://github.com/Abdulrahman5843/Project
     cd Project
     python3 run_scheduler.py
     ```
@@ -34,7 +34,7 @@ The **Operating System Scheduler** project demonstrates five key CPU scheduling 
     ```bash
     sudo apt update
     sudo apt install python3
-    git clone https://github.com/rayanAdeb/Project
+    git clone https://github.com/Abdulrahman5843/Project
     cd Project
     python3 run_scheduler.py
     ```
