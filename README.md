@@ -46,11 +46,11 @@ Follow these steps to install the Operating System Scheduler on various platform
 ### Creating a Project
 To create a new project in the Operating System Scheduler, follow these steps:
 
-- [ ] Name the project
-- [ ] Select the scheduling algorithm
-- [ ] Define the number of processes
-- [ ] Input process data (arrival time, burst time, etc.)
-- [ ] Run the algorithm
+- [ ] Name the project :memo:
+- [ ] Select the scheduling algorithm :point_up:
+- [ ] Define the number of processes :bar_chart:
+- [ ] Input process data (arrival time, burst time, etc.) :inbox_tray:
+- [ ] Run the algorithm :white_check_mark:
 
 ### Collaboration
 
