@@ -127,4 +127,4 @@ Operating System Scheduler can integrate with a variety of tools to enhance its 
 2. Learn more about process scheduling in operating systems from [W3Schools](https://www.w3schools.com/os/os_processes.asp).
 
 ---
-
+![Alt text for the image](https://clockit.io/wp-content/uploads/2023/07/scheduling.jpg)
