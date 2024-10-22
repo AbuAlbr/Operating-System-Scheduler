@@ -6,7 +6,7 @@
 
 ## Key Features
 
-- **First-Come, First-Served (FCFS)**: Processes tasks in the order they arrive, with no preemption.:alarm_clock:
+- **First-Come, First-Served (FCFS)**: Processes tasks in the order they arrive, with no preemption. :alarm_clock:
 - **Shortest-Job-First (Non-Preemptive) (SJFNP)**: Selects the task with the shortest execution time and runs it until it completes.
 - **Shortest-Job-First (Preemptive) (SJFP)**: Always picks the task with the shortest remaining time and allows task switching.
 - **Priority Scheduling**: Processes tasks based on their priority, giving higher priority tasks precedence.
