@@ -1,4 +1,4 @@
-# Operating System Scheduler - CPU Scheduling Algorithms Redefined
+# Operating System Scheduler - CPU Scheduling Algorithms Redefined     7madh
 
 ## Project Overview
  Operating System Scheduler is a tool designed to implement and compare different CPU scheduling algorithms. This project helps understand how various algorithms manage tasks and affect system performance, aiding developers and computer scientists in selecting the most suitable algorithm for their needs.
